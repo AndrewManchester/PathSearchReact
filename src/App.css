@@ -1,0 +1,44 @@
+
+.centreBlock {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.check {
+   padding-left: 20px;
+}
+.grid-item {
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      font-size: 10px;
+      height: 40px;
+}
+
+.set-red {
+   background-color: red;
+}
+
+.set-green {
+   background-color: green;
+}
+.set-black {
+   background-color: black;
+}
+.set-blue {
+   background-color: blue;
+}
+.set-yellow {
+   background-color: yellow;
+}
+
+.path { 
+  padding-top: 6px;
+}
+
+.path:hover {
+  background-color: #e6e6e6;
+}
+
+.check {
+   padding-top: 10px;
+   padding-bottom: 10px;  
+}
